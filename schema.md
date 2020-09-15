@@ -26,4 +26,4 @@ This will require a few stored procedures to insert into these tables and save t
 - inserting into `emails` table, called `InsertEmail`
 - inserting into `recipients` table, called `InsertRecipient`
 
-Of course more will be needed in order to retrieve data, however at a minimum, these are necessary. One consideration to keep in mind is that because the `recipients` table is seperate from the `email` table, inserting a large amount of recipients could be done either one a time, or in larger bulk inserts by programatically building a the `INSERT` statement.
+Of course more will be needed in order to retrieve data, however at a minimum, these are necessary. One consideration to keep in mind is that because the `recipients` table is seperate from the `email` table, inserting a large amount of recipients could be done either one a time, or in larger bulk inserts by programatically building an `INSERT` statement.
